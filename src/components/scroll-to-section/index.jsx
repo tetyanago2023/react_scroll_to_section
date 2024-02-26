@@ -47,7 +47,7 @@ const ScrollToSection = () => {
     ];
 
     const handleScrollToSection = () => {
-        let pos = ref.current.getBoundingClientRect().top;
+        const pos = ref.current.getBoundingClientRect().top;
 
         window.scrollTo({
             top: pos,
